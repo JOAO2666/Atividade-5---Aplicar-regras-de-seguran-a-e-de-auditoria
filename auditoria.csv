@@ -1,0 +1,7 @@
+﻿"Data","Hora","Nome do Servidor","Ação","Tipo de Classe","Nome do Banco de Dados","Nome do Esquema","Nome do Objeto","Nome da Entidade","Instrução","Êxito"
+"09/10/2026","17:30:15.1420580","DESKTOP-SENAI\SQLEXPRESS","AUDIT SESSION CHANGED","SERVER AUDIT","master","sys","Audit_ClinicaMedica","sa","ALTER SERVER AUDIT [Audit_ClinicaMedica] WITH (STATE = ON)","True"
+"09/10/2026","17:31:02.8190342","DESKTOP-SENAI\SQLEXPRESS","AUDIT SPECIFICATION CHANGED","DATABASE AUDIT","clinica_medica","sys","DatabaseAuditSpecification_ClinicaMedica","sa","ALTER DATABASE AUDIT SPECIFICATION [DatabaseAuditSpecification_ClinicaMedica] WITH (STATE = ON)","True"
+"09/10/2026","17:32:10.4501238","DESKTOP-SENAI\SQLEXPRESS","SELECT","TABLE","clinica_medica","dbo","paciente","usuario_consulta","SELECT * FROM dbo.paciente;","True"
+"09/10/2026","17:32:45.9804561","DESKTOP-SENAI\SQLEXPRESS","SELECT","TABLE","clinica_medica","dbo","paciente","usuario_consulta","SELECT nome_paciente, telefone, nome_plano FROM dbo.paciente WHERE tipo_plano = 'Basico';","True"
+"09/10/2026","17:33:20.3107892","DESKTOP-SENAI\SQLEXPRESS","SELECT","TABLE","clinica_medica","dbo","paciente","usuario_consulta","SELECT * FROM dbo.paciente WHERE cpf = '567.890.123-45';","True"
+"09/10/2026","17:34:05.6542109","DESKTOP-SENAI\SQLEXPRESS","SELECT","TABLE","clinica_medica","dbo","paciente","usuario_consulta","SELECT * FROM paciente;","True"
